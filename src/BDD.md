@@ -1,11 +1,4 @@
 **Behavior**                              **Input**                     **OutPut**
-tamagotchi class instantiates            "Dragon"                       "true"
-with pet name.
-
-Tamagotchi class instantiates            "Dragon", 10                    "true"
-with pet name and food level.
-
-
 
 tamagotchi class instantiates            "dragon", 10, 0, 10           true
 correctly with pet name, food
