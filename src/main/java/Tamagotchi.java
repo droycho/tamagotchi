@@ -14,12 +14,13 @@ public class Tamagotchi {
     return mFoodLevel;
   }
 
-  public Boolean isAlive() {
+  public String isAlive() {
     if(mFoodLevel > 0) {
-      return true;
+      return mPetName + " is alive.";
     } else {
-      return false;
+      return mPetName + " is dead.";
     }
   }
+
 
 }

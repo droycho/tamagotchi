@@ -16,8 +16,8 @@ public class TamagotchiTest {
   }
 
   @Test
-  public void isAlive_foodLevelAbove0_true() {
+  public void isAlive_foodLevelAbove0_String() {
     Tamagotchi myTamagotchi = new Tamagotchi("Dragon");
-    assertEquals(true, myTamagotchi.isAlive());
+    assertEquals("Dragon is alive.", myTamagotchi.isAlive());
   }
 }
