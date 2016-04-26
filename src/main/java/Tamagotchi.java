@@ -1,8 +1,8 @@
 public class Tamagotchi {
   private String mPetName;
-  private int mFoodLevel;
-  private int mSleepLevel;
-  private int mActivityLevel;
+  private Integer mFoodLevel;
+  private Integer mSleepLevel;
+  private Integer mActivityLevel;
 
   public Tamagotchi(String petName, Integer foodLevel, Integer sleepLevel, Integer activityLevel) {
     mPetName = petName;
@@ -16,6 +16,11 @@ public class Tamagotchi {
   }
 
   public Integer getFoodLevel() {
+    return mFoodLevel;
+  }
+
+  public Integer downFoodLevel(Integer food) {
+    mFoodLevel = mFoodLevel - 1;
     return mFoodLevel;
   }
 
@@ -34,7 +39,5 @@ public class Tamagotchi {
   public Integer getActivityLevel() {
     return mActivityLevel;
   }
-
-
 
 }

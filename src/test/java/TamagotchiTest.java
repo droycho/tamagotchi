@@ -20,4 +20,5 @@ public class TamagotchiTest {
     Tamagotchi myTamagotchi = new Tamagotchi("Dragon", 10, 0, 10);
     assertEquals("Dragon is alive.", myTamagotchi.isAlive());
   }
+
 }

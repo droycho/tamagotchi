@@ -1,2 +1,29 @@
-<h1>Tamagotchi name:</h1>
-<p>$name</p>
+<h1 class="jumbotron">Tamagotchi</h1>
+<div class="col-md-6">
+  <h2>My pet name: $name</h2>
+  <h2>Food: $food</h2>
+  <h2>Sleep: $sleep</h2>
+  <h2>Activity: $activity</h2>
+</div>
+<div id="buttons">
+<div class="col-md-6">
+  <form method="post" action="/tamagotchi">
+    <button type="click" class="btn btn-default">Give Food</button>
+    <input type="hidden" name="action" value="food">
+  </form>
+    <br>
+    <br>
+    <br>
+    <form method="post" action="/tamagotchi">
+      <button type="click" class="btn btn-info">Get Sleep</button>
+      <input type="hidden" name="action" value="sleep">
+    </form>
+    <br>
+    <br>
+    <br>
+    <form method="post" action="/tamagotchi">
+      <button type="click" class="btn btn-danger" id="playButton">Play</button>
+      <input type="hidden" name="action" value="play">
+  </form>
+</div>
+</div>
