@@ -14,4 +14,10 @@ public class TamagotchiTest {
     Tamagotchi myTamagotchi = new Tamagotchi("Dragon");
     assertEquals("Dragon", myTamagotchi.getPetName());
   }
+
+  @Test
+  public void isAlive_foodLevelAbove0_true() {
+    Tamagotchi myTamagotchi = new Tamagotchi("Dragon");
+    assertEquals(true, myTamagotchi.isAlive());
+  }
 }
