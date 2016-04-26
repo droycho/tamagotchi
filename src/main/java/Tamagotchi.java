@@ -1,9 +1,14 @@
 public class Tamagotchi {
   private String mPetName;
   private int mFoodLevel = 10;
+  private int mSleepLevel = 0;
+  private int mActivityLevel = 10;
 
-  public Tamagotchi(String petName) {
+  public Tamagotchi(String petName, Integer foodLevel, Integer sleepLevel, Integer activityLevel) {
     mPetName = petName;
+    mFoodLevel = foodLevel;
+    mSleepLevel = sleepLevel;
+    mActivityLevel = activityLevel;
   }
 
   public String getPetName() {
@@ -21,6 +26,15 @@ public class Tamagotchi {
       return mPetName + " is dead.";
     }
   }
+
+  public Integer getSleepLevel() {
+    return mSleepLevel;
+  }
+
+  public Integer getActivityLevel() {
+    return mActivityLevel;
+  }
+
 
 
 }

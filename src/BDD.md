@@ -1,12 +1,20 @@
 **Behavior**                              **Input**                     **OutPut**
+tamagotchi class instantiates            "Dragon"                       "true"
+with pet name.
+
+Tamagotchi class instantiates            "Dragon", 10                    "true"
+with pet name and food level.
+
+
+
 tamagotchi class instantiates            "dragon", 10, 0, 10           true
 correctly with pet name, food
 sleep and activity levels
 
-check if pet is alive if food            "dragon"                     true
+check if pet is alive if food            "dragon"                     "Dragon is alive."
 level is above zero
 
-if food equals zero, pet name is          "dragon"                    "Dragon is dead"
+if food equals zero, pet name is          "dragon"                    "Dragon is dead."
 pronounced dead             
 
 food level decreases by 1 when            "button click on activity"      food level - 1     
