@@ -1,8 +1,8 @@
 public class Tamagotchi {
   private String mPetName;
-  private int mFoodLevel = 10;
-  private int mSleepLevel = 0;
-  private int mActivityLevel = 10;
+  private int mFoodLevel;
+  private int mSleepLevel;
+  private int mActivityLevel;
 
   public Tamagotchi(String petName, Integer foodLevel, Integer sleepLevel, Integer activityLevel) {
     mPetName = petName;

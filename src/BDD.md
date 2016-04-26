@@ -8,7 +8,10 @@ check if pet is alive if food            "dragon"                     "Dragon is
 level is above zero
 
 if food equals zero, pet name is          "dragon"                    "Dragon is dead."
-pronounced dead             
+pronounced dead      
+
+give your pet a name and have it
+shown on tamagotchi page                "Dragon"                    "Dragon" on tamagotchi page
 
 food level decreases by 1 when            "button click on activity"      food level - 1     
 activity button is clicked  

@@ -23,4 +23,11 @@ public class AppTest extends FluentTest {
     goTo("http://localhost:4567/");
     assertThat(pageSource()).contains("Tamagotchi");
   }
+  @Test
+  public void nameIsCreated() {
+    goTo("http://localhost:4567/");
+    fill("#name").with("Dragon");
+    submit(".btn");
+    assertThat(pageSource()).contains("Tamagotchi name:");
+  }
 }
